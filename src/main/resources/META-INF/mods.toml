@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="changed_plus_industry"
-version="1.0.0"
+version="0.0.1"
 displayName="changed plus:Industry"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Administrator, MCreator"
+authors="耿悠博, MCreator"
 
 [[dependencies.changed_plus_industry]]
     modId="minecraft"
@@ -16,7 +16,18 @@ authors="Administrator, MCreator"
     versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
-
+[[dependencies.changed_plus_industry]]
+modId="changed"
+mandatory=false
+versionRange="(,0.13.1]" # Replace with the version you plan to mod
+ordering="NONE"
+side="BOTH"
+[[dependencies.changed_plus_industry]]
+modId="changedplus"
+mandatory=false
+versionRange="[0.0.3,)" # Replace with the version you plan to mod
+ordering="NONE"
+side="BOTH"
 
 
 

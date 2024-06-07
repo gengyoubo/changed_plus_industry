@@ -1,0 +1,893 @@
+[076月2024 22:04:39.127] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[076月2024 22:04:39.131] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.11 by Eclipse Adoptium
+[076月2024 22:04:39.143] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[076月2024 22:04:39.156] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[076月2024 22:04:39.169] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[076月2024 22:04:39.178] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[076月2024 22:04:39.188] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@85e6769
+[076月2024 22:04:39.201] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[076月2024 22:04:39.202] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[076月2024 22:04:39.202] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[076月2024 22:04:39.203] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[076月2024 22:04:39.203] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[076月2024 22:04:39.206] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[076月2024 22:04:39.206] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[076月2024 22:04:39.206] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[076月2024 22:04:39.207] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[076月2024 22:04:39.207] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.7+5.0.7+master.6d3407cc
+[076月2024 22:04:39.208] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[076月2024 22:04:39.210] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.3+5.0.3+master.611f2781
+[076月2024 22:04:39.210] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+[076月2024 22:04:39.211] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[076月2024 22:04:39.213] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[076月2024 22:04:39.214] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[076月2024 22:04:39.221] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[076月2024 22:04:39.221] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[076月2024 22:04:39.237] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1188e820
+[076月2024 22:04:39.252] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2324!/ Service=ModLauncher Env=CLIENT
+[076月2024 22:04:39.256] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[076月2024 22:04:39.256] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[076月2024 22:04:39.257] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[076月2024 22:04:39.257] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[076月2024 22:04:39.258] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[076月2024 22:04:39.258] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[076月2024 22:04:39.259] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[076月2024 22:04:39.260] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[076月2024 22:04:39.260] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[076月2024 22:04:39.261] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run
+[076月2024 22:04:39.261] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run
+[076月2024 22:04:39.262] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\mods
+[076月2024 22:04:39.262] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\mods
+[076月2024 22:04:39.262] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config
+[076月2024 22:04:39.262] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config
+[076月2024 22:04:39.263] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\fml.toml
+[076月2024 22:04:39.263] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[076月2024 22:04:39.293] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\defaultconfigs
+[076月2024 22:04:39.294] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[076月2024 22:04:39.297] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[076月2024 22:04:39.298] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[076月2024 22:04:39.315] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.2.21, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+[076月2024 22:04:39.316] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[076月2024 22:04:39.317] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[076月2024 22:04:39.318] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[076月2024 22:04:39.318] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[076月2024 22:04:39.319] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[076月2024 22:04:39.319] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[076月2024 22:04:39.319] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[076月2024 22:04:39.319] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[076月2024 22:04:39.331] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[076月2024 22:04:39.333] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+[076月2024 22:04:39.339] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates changed_plus_industry%%C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main;changed_plus_industry%%C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\classes\java\main from env
+[076月2024 22:04:39.340] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{changed_plus_industry=[C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main, C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\classes\java\main]}]
+[076月2024 22:04:39.601] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.2.21_mapped_official_1.18.2.jar with {minecraft} mods - versions {1.18.2}
+[076月2024 22:04:39.606] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.21\c6fe3441af3b7980be1ed98298708883124cc3bf\javafmllanguage-1.18.2-40.2.21.jar
+[076月2024 22:04:39.606] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.21\c6fe3441af3b7980be1ed98298708883124cc3bf\javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[076月2024 22:04:39.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.21\37b9f1843f8fe0387c9e7202cc7752d71d9a8b3d\lowcodelanguage-1.18.2-40.2.21.jar
+[076月2024 22:04:39.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.21\37b9f1843f8fe0387c9e7202cc7752d71d9a8b3d\lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[076月2024 22:04:39.613] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.21\5c1c2d561428e5b162d0b6682f9c8f39141a71f4\mclanguage-1.18.2-40.2.21.jar
+[076月2024 22:04:39.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.21\5c1c2d561428e5b162d0b6682f9c8f39141a71f4\mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[076月2024 22:04:39.616] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.21\2fff7bebefc2a17d48339a2595ece9f8694970b8\fmlcore-1.18.2-40.2.21.jar
+[076月2024 22:04:39.616] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.21\2fff7bebefc2a17d48339a2595ece9f8694970b8\fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[076月2024 22:04:39.620] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main
+[076月2024 22:04:39.625] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {changed_plus_industry} mods - versions {0.0.1}
+[076月2024 22:04:39.628] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[076月2024 22:04:39.630] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.2.21}
+[076月2024 22:04:39.646] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\mods\changedplus-0.0.3a.jar
+[076月2024 22:04:39.649] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file changedplus-0.0.3a.jar with {changedplus} mods - versions {0.0.3a}
+[076月2024 22:04:39.655] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar
+[076月2024 22:04:39.656] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar with {changed} mods - versions {0.13.1}
+[076月2024 22:04:39.661] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.7.1.255_mapped_official_1.18.2\jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar
+[076月2024 22:04:39.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar with {jei} mods - versions {9.7.1.255}
+[076月2024 22:04:39.666] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\org\embeddedt\embeddium-1.18.2\0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2\embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar
+[076月2024 22:04:39.667] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar with {embeddium,rubidium} mods - versions {0.2.11-git.669ff54+mc1.18.2,0.5.6}
+[076月2024 22:04:39.670] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\mods\changedplus-0.0.3a.jar
+[076月2024 22:04:39.672] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file changedplus-0.0.3a.jar with {changedplus} mods - versions {0.0.3a}
+[076月2024 22:04:39.677] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar
+[076月2024 22:04:39.679] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar with {changed} mods - versions {0.13.1}
+[076月2024 22:04:39.683] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.7.1.255_mapped_official_1.18.2\jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar
+[076月2024 22:04:39.684] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar with {jei} mods - versions {9.7.1.255}
+[076月2024 22:04:39.688] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\org\embeddedt\embeddium-1.18.2\0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2\embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar
+[076月2024 22:04:39.689] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar with {embeddium,rubidium} mods - versions {0.2.11-git.669ff54+mc1.18.2,0.5.6}
+[076月2024 22:04:39.694] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid changedplus, selecting most recent based on version data
+[076月2024 22:04:39.695] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file changedplus-0.0.3a.jar for modid changedplus with version 0.0.3a
+[076月2024 22:04:39.695] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid embeddium, selecting most recent based on version data
+[076月2024 22:04:39.696] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar for modid embeddium with version 0.2.11-git.669ff54+mc1.18.2
+[076月2024 22:04:39.696] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid jei, selecting most recent based on version data
+[076月2024 22:04:39.696] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar for modid jei with version 9.7.1.255
+[076月2024 22:04:39.696] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid changed, selecting most recent based on version data
+[076月2024 22:04:39.696] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar for modid changed with version 0.13.1
+[076月2024 22:04:39.717] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.18.2-40.2.21_mapped_official_1.18.2.jar, it does not contain dependency information.
+[076月2024 22:04:39.718] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[076月2024 22:04:39.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[076月2024 22:04:39.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from changedplus-0.0.3a.jar, it does not contain dependency information.
+[076月2024 22:04:39.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.18.2-40.2.21.jar, it does not contain dependency information.
+[076月2024 22:04:39.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+[076月2024 22:04:39.759] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[076月2024 22:04:39.761] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.2.21_mapped_official_1.18.2.jar with {minecraft} mods - versions {1.18.2}
+[076月2024 22:04:39.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.21_mapped_official_1.18.2\forge-1.18.2-40.2.21_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[076月2024 22:04:39.768] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main
+[076月2024 22:04:39.770] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {changed_plus_industry} mods - versions {0.0.1}
+[076月2024 22:04:39.771] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[076月2024 22:04:39.771] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[076月2024 22:04:39.772] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {40.2.21}
+[076月2024 22:04:39.772] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[076月2024 22:04:39.811] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[076月2024 22:04:39.812] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[076月2024 22:04:39.812] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
+[076月2024 22:04:39.813] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\mods\changedplus-0.0.3a.jar
+[076月2024 22:04:39.816] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file changedplus-0.0.3a.jar with {changedplus} mods - versions {0.0.3a}
+[076月2024 22:04:39.816] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\mods\changedplus-0.0.3a.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[076月2024 22:04:39.816] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\org\embeddedt\embeddium-1.18.2\0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2\embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar
+[076月2024 22:04:39.817] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar with {embeddium,rubidium} mods - versions {0.2.11-git.669ff54+mc1.18.2,0.5.6}
+[076月2024 22:04:39.818] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\org\embeddedt\embeddium-1.18.2\0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2\embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[076月2024 22:04:39.818] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar
+[076月2024 22:04:39.819] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar with {changed} mods - versions {0.13.1}
+[076月2024 22:04:39.819] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[076月2024 22:04:39.819] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.7.1.255_mapped_official_1.18.2\jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar
+[076月2024 22:04:39.820] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar with {jei} mods - versions {9.7.1.255}
+[076月2024 22:04:39.821] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.7.1.255_mapped_official_1.18.2\jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[076月2024 22:04:39.822] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[076月2024 22:04:39.834] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[076月2024 22:04:39.836] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[076月2024 22:04:39.837] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 40
+[076月2024 22:04:39.837] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[076月2024 22:04:39.841] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[076月2024 22:04:39.841] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[076月2024 22:04:39.841] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[076月2024 22:04:39.843] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 10 mod requirements (8 mandatory, 2 optional)
+[076月2024 22:04:39.845] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[076月2024 22:04:40.240] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28190 method mappings from methods.csv
+[076月2024 22:04:40.265] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 27073 field mappings from fields.csv
+[076月2024 22:04:40.327] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[076月2024 22:04:40.327] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[076月2024 22:04:40.330] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[076月2024 22:04:40.330] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[076月2024 22:04:40.330] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[076月2024 22:04:40.330] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[076月2024 22:04:40.487] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[076月2024 22:04:40.487] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[076月2024 22:04:40.552] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[076月2024 22:04:40.552] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[076月2024 22:04:40.594] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[076月2024 22:04:40.594] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
+[076月2024 22:04:40.615] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[076月2024 22:04:40.624] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@119aa36 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[076月2024 22:04:40.626] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@56dfab87 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[076月2024 22:04:40.626] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@715b886f to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[076月2024 22:04:40.626] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7fb29ca9 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[076月2024 22:04:40.626] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1e253c9d to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[076月2024 22:04:40.627] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@350d3f4d to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[076月2024 22:04:40.627] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@18b8d173 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[076月2024 22:04:40.627] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@73844119 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+[076月2024 22:04:40.627] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[076月2024 22:04:41.045] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[076月2024 22:04:41.045] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[076月2024 22:04:41.045] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[076月2024 22:04:41.045] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(changed_plus_industry)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(changed_plus_industry)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(changed_plus_industry)
+[076月2024 22:04:41.046] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(changed_plus_industry)
+[076月2024 22:04:41.047] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(changed_plus_industry)
+[076月2024 22:04:41.047] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changed_plus_industry)]
+[076月2024 22:04:41.047] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[076月2024 22:04:41.047] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[076月2024 22:04:41.047] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[076月2024 22:04:41.048] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[076月2024 22:04:41.048] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[076月2024 22:04:41.048] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[076月2024 22:04:41.048] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(changedplus)
+[076月2024 22:04:41.048] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(changedplus)
+[076月2024 22:04:41.049] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(changedplus)
+[076月2024 22:04:41.049] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(changedplus)
+[076月2024 22:04:41.049] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(changedplus)
+[076月2024 22:04:41.049] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changedplus)]
+[076月2024 22:04:41.049] [main/DEBUG] [mixin/]: Registering mixin config: changed.mixins.json
+[076月2024 22:04:41.062] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by changed.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[076月2024 22:04:41.066] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[076月2024 22:04:41.066] [main/DEBUG] [mixin/]: Registering mixin config: changed.compatibility.mixins.json
+[076月2024 22:04:41.067] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(embeddium)
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(embeddium)
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(embeddium)
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(embeddium)
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(embeddium)
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(embeddium)]
+[076月2024 22:04:41.069] [main/DEBUG] [mixin/]: Registering mixin config: embeddium.mixins.json
+[076月2024 22:04:41.071] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(changed)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(changed)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(changed)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(changed)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(changed)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changed)]
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Registering mixin config: changed.mixins.json
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Registering mixin config: changed.compatibility.mixins.json
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[076月2024 22:04:41.072] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: inject() running with 8 agents
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changed_plus_industry)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changedplus)]
+[076月2024 22:04:41.073] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(embeddium)]
+[076月2024 22:04:41.074] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(changed)]
+[076月2024 22:04:41.074] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[076月2024 22:04:41.074] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[076月2024 22:04:41.154] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[076月2024 22:04:41.156] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[076月2024 22:04:41.156] [main/DEBUG] [mixin/]: Selecting config changed.mixins.json
+[076月2024 22:04:41.454] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\createSrgToMcp\output.srg
+[076月2024 22:04:41.454] [main/DEBUG] [mixin/]: Selecting config changed.compatibility.mixins.json
+[076月2024 22:04:41.463] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\createSrgToMcp\output.srg
+[076月2024 22:04:41.464] [main/DEBUG] [mixin/]: Selecting config embeddium.mixins.json
+[076月2024 22:04:41.475] [main/INFO] [Rubidium/]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[076月2024 22:04:41.480] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 30 options available, 0 override(s) found
+[076月2024 22:04:41.482] [main/INFO] [mixin/]: Remapping refMap embeddium-refmap.json using C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\createSrgToMcp\output.srg
+[076月2024 22:04:41.482] [main/DEBUG] [mixin/]: Preparing changed.mixins.json (75)
+[076月2024 22:04:41.623] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[076月2024 22:04:41.776] [main/DEBUG] [mixin/]: Preparing changed.compatibility.mixins.json (13)
+[076月2024 22:04:41.786] [main/DEBUG] [mixin/]: Preparing embeddium.mixins.json (56)
+[076月2024 22:04:41.890] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[076月2024 22:04:41.892] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[076月2024 22:04:41.893] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[076月2024 22:04:41.894] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[076月2024 22:04:41.896] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[076月2024 22:04:41.898] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[076月2024 22:04:41.947] [main/DEBUG] [mixin/]: Inner class net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin$1 in net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin on net/minecraft/client/model/HumanoidModel gets unique name net/minecraft/client/model/HumanoidModel$Anonymous$81e2ce84be134274b9c7fe1d03e33c21
+[076月2024 22:04:41.947] [main/DEBUG] [mixin/]: Inner class net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin$2 in net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin on net/minecraft/client/model/HumanoidModel gets unique name net/minecraft/client/model/HumanoidModel$Anonymous$70150ead303c49fb97773ae5148d7e5d
+[076月2024 22:04:41.967] [main/DEBUG] [mixin/]: Prepared 133 mixins in 0.810 sec (6.1ms avg) (0ms load, 0ms transform, 0ms plugin)
+[076月2024 22:04:41.978] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[076月2024 22:04:41.981] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[076月2024 22:04:41.981] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[076月2024 22:04:42.060] [main/DEBUG] [mixin/]: Mixing entity.PlayerMixin from changed.mixins.json into net.minecraft.world.entity.player.Player
+[076月2024 22:04:42.079] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getDimensions$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getDimensions$2$0 in changed.mixins.json:entity.PlayerMixin
+[076月2024 22:04:42.080] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$orNotHurt$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$orNotHurt$1$1 in changed.mixins.json:entity.PlayerMixin
+[076月2024 22:04:42.080] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getMyRidingOffset$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getMyRidingOffset$0$2 in changed.mixins.json:entity.PlayerMixin
+[076月2024 22:04:42.296] [main/DEBUG] [mixin/]: Mixing entity.LivingEntityMixin from changed.mixins.json into net.minecraft.world.entity.LivingEntity
+[076月2024 22:04:42.300] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$tick$7(Lnet/minecraft/world/entity/player/Player;)Ljava/lang/Runnable; to mdc9d8ee$lambda$tick$7$0 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.300] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$tick$6(Lnet/minecraft/world/entity/player/Player;)V to mdc9d8ee$lambda$tick$6$1 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.300] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$isVisuallySwimming$5(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$isVisuallySwimming$5$2 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.301] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getEffect$4(Lnet/minecraft/world/effect/MobEffect;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getEffect$4$3 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.301] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$hasEffect$3(Lnet/minecraft/world/effect/MobEffect;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$hasEffect$3$4 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.302] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getJumpPower$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/lang/Float; to mdc9d8ee$lambda$getJumpPower$2$5 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.302] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$onClimbable$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$onClimbable$1$6 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.303] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$updateFallFlying$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$updateFallFlying$0$7 in changed.mixins.json:entity.LivingEntityMixin
+[076月2024 22:04:42.324] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
+[076月2024 22:04:42.417] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[076月2024 22:04:42.523] [main/DEBUG] [mixin/]: Mixing entity.EntityMixin from changed.mixins.json into net.minecraft.world.entity.Entity
+[076月2024 22:04:42.525] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$canEnterPose$8(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/util/Optional; to mdc9d8ee$lambda$canEnterPose$8$0 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.525] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$isInWall$7(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/AABB;Lnet/minecraft/core/BlockPos;)Z to mdc9d8ee$lambda$isInWall$7$1 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.526] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getEyePosition$6(FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getEyePosition$6$2 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.526] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getEyePosition$5(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getEyePosition$5$3 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.526] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getPassengersRidingOffset$4(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getPassengersRidingOffset$4$4 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.527] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$interact$3(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$interact$3$5 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.527] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getEyeHeight$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getEyeHeight$2$6 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.527] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$isSwimming$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$isSwimming$1$7 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.528] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getTicksRequiredToFreeze$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getTicksRequiredToFreeze$0$8 in changed.mixins.json:entity.EntityMixin
+[076月2024 22:04:42.659] [main/DEBUG] [mixin/]: Mixing item.ItemMixin from changed.mixins.json into net.minecraft.world.item.Item
+[076月2024 22:04:42.659] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$use$1(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$use$1$0 in changed.mixins.json:item.ItemMixin
+[076月2024 22:04:42.661] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$use$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/ability/AccessSaddleAbilityInstance;)V to mdc9d8ee$lambda$use$0$1 in changed.mixins.json:item.ItemMixin
+[076月2024 22:04:42.689] [main/DEBUG] [mixin/]: Mixing block.BlockMixin from changed.mixins.json into net.minecraft.world.level.block.Block
+[076月2024 22:04:42.699] [main/DEBUG] [mixin/]: Mixing features.fast_biome_colors.MixinBlock from embeddium.mixins.json into net.minecraft.world.level.block.Block
+[076月2024 22:04:42.719] [main/DEBUG] [mixin/]: Mixing block.BlockBehaviourMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
+[076月2024 22:04:42.719] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$use$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$use$0$0 in changed.mixins.json:block.BlockBehaviourMixin
+[076月2024 22:04:42.738] [main/DEBUG] [mixin/]: Mixing block.BlockBehaviourMixinFixer from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
+[076月2024 22:04:42.796] [main/DEBUG] [mixin/]: Mixing core.MixinDirection from embeddium.mixins.json into net.minecraft.core.Direction
+[076月2024 22:04:42.844] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@76ad6715
+[076月2024 22:04:43.382] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@76ad6715
+[076月2024 22:04:43.678] [pool-3-thread-1/DEBUG] [mixin/]: Mixing GameDataMixin from changed.mixins.json into net.minecraftforge.registries.GameData
+[076月2024 22:04:43.707] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.BlockStateBaseMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[076月2024 22:04:43.725] [pool-3-thread-1/DEBUG] [mixin/]: Mixing StateHolderMixin from changed.mixins.json into net.minecraft.world.level.block.state.StateHolder
+[076月2024 22:04:43.764] [pool-3-thread-1/DEBUG] [mixin/]: Mixing features.fast_biome_colors.MixinFluid from embeddium.mixins.json into net.minecraft.world.level.material.Fluid
+[076月2024 22:04:43.924] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.SpreadingSnowyDirtBlockMixin from changed.mixins.json into net.minecraft.world.level.block.SpreadingSnowyDirtBlock
+[076月2024 22:04:43.939] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[076月2024 22:04:43.949] [pool-3-thread-1/DEBUG] [mixin/]: Mixing features.render_layer.leaves.MixinLeavesBlock from embeddium.mixins.json into net.minecraft.world.level.block.LeavesBlock
+[076月2024 22:04:43.982] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[076月2024 22:04:44.043] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.WallBlockMixin from changed.mixins.json into net.minecraft.world.level.block.WallBlock
+[076月2024 22:04:44.043] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$makeShapes$0(Lnet/ltxprogrammer/changed/entity/LatexType;Lcom/google/common/collect/ImmutableMap$Builder;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/shapes/VoxelShape;)V to mdc9d8ee$lambda$makeShapes$0$0 in changed.mixins.json:block.WallBlockMixin
+[076月2024 22:04:44.054] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[076月2024 22:04:44.122] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.PowderSnowBlockMixin from changed.mixins.json into net.minecraft.world.level.block.PowderSnowBlock
+[076月2024 22:04:44.122] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$canEntityWalkOnPowderSnow$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$canEntityWalkOnPowderSnow$0$0 in changed.mixins.json:block.PowderSnowBlockMixin
+[076月2024 22:04:44.168] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.BlockPropertiesMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$Properties
+[076月2024 22:04:44.169] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$initDirectColor$1(Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/MaterialColor; to mdc9d8ee$lambda$initDirectColor$1$0 in changed.mixins.json:block.BlockPropertiesMixin
+[076月2024 22:04:44.169] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$initDirectColor$0(Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/MaterialColor; to mdc9d8ee$lambda$initDirectColor$0$1 in changed.mixins.json:block.BlockPropertiesMixin
+[076月2024 22:04:44.268] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.StateDefinitionMixin from changed.mixins.json into net.minecraft.world.level.block.state.StateDefinition$Builder
+[076月2024 22:04:44.268] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$create$1(Lnet/minecraft/world/level/block/Block;Ljava/lang/Class;)Z to mdc9d8ee$lambda$create$1$0 in changed.mixins.json:block.StateDefinitionMixin
+[076月2024 22:04:44.268] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0(Ljava/util/ArrayList;)V to mdc9d8ee$lambda$static$0$1 in changed.mixins.json:block.StateDefinitionMixin
+[076月2024 22:04:44.285] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[076月2024 22:04:44.333] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[076月2024 22:04:44.341] [pool-3-thread-1/DEBUG] [mixin/]: Mixing item.ArmorItemMixin from changed.mixins.json into net.minecraft.world.item.ArmorItem
+[076月2024 22:04:44.370] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraftforge/registries/RegistryObject
+[076月2024 22:04:44.382] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.MobMixin from changed.mixins.json into net.minecraft.world.entity.Mob
+[076月2024 22:04:44.382] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/animal/IronGolem;Lnet/minecraft/world/entity/LivingEntity;)Z to mdc9d8ee$lambda$registerGoals$0$0 in changed.mixins.json:entity.MobMixin
+[076月2024 22:04:44.442] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.ArrowMixin from changed.mixins.json into net.minecraft.world.entity.projectile.Arrow
+[076月2024 22:04:44.577] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[076月2024 22:04:44.578] [pool-3-thread-1/DEBUG] [mixin/]: Mixing item.ItemStackMixin from changed.mixins.json into net.minecraft.world.item.ItemStack
+[076月2024 22:04:44.578] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$canEquip$1(Z)Ljava/lang/Boolean; to mdc9d8ee$lambda$canEquip$1$0 in changed.mixins.json:item.ItemStackMixin
+[076月2024 22:04:44.578] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$canEquip$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;ZLnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)Ljava/lang/Boolean; to mdc9d8ee$lambda$canEquip$0$1 in changed.mixins.json:item.ItemStackMixin
+[076月2024 22:04:44.592] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.NearestAttackableTargetGoalMixin from changed.mixins.json into net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal
+[076月2024 22:04:44.593] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$noTargetScary$2(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/world/entity/LivingEntity;)Z to mdc9d8ee$lambda$noTargetScary$2$0 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
+[076月2024 22:04:44.593] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$noTargetScary$1(Lnet/minecraft/world/entity/PathfinderMob;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/lang/Boolean; to mdc9d8ee$lambda$noTargetScary$1$1 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
+[076月2024 22:04:44.593] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$noTargetScary$0(Lnet/minecraft/world/entity/PathfinderMob;Ljava/lang/Class;)Z to mdc9d8ee$lambda$noTargetScary$0$2 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
+[076月2024 22:04:44.787] [pool-3-thread-1/DEBUG] [mixin/]: Mixing fluid.LavaFluidMixin from changed.mixins.json into net.minecraft.world.level.material.LavaFluid
+[076月2024 22:04:44.974] [pool-3-thread-1/DEBUG] [mixin/]: Mixing core.matrix.MixinMatrix4f from embeddium.mixins.json into com.mojang.math.Matrix4f
+[076月2024 22:04:45.134] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.IronGolemMixin from changed.mixins.json into net.minecraft.world.entity.animal.IronGolem
+[076月2024 22:04:45.135] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/animal/IronGolem;Lnet/minecraft/world/entity/LivingEntity;)Z to mdc9d8ee$lambda$registerGoals$0$0 in changed.mixins.json:entity.IronGolemMixin
+[076月2024 22:04:46.109] [pool-3-thread-1/DEBUG] [mixin/]: Mixing block.SimpleBlockFeatureMixin from changed.mixins.json into net.minecraft.world.level.levelgen.feature.SimpleBlockFeature
+[076月2024 22:04:46.717] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.ServerPlayerMixin from changed.mixins.json into net.minecraft.server.level.ServerPlayer
+[076月2024 22:04:46.718] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$addAdditionalSaveData$3$0 in changed.mixins.json:entity.ServerPlayerMixin
+[076月2024 22:04:46.719] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$readAdditionalSaveData$2(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$readAdditionalSaveData$2$1 in changed.mixins.json:entity.ServerPlayerMixin
+[076月2024 22:04:46.719] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$readAdditionalSaveData$1(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$readAdditionalSaveData$1$2 in changed.mixins.json:entity.ServerPlayerMixin
+[076月2024 22:04:46.719] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$restoreFrom$0(Lnet/minecraft/server/level/ServerPlayer;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$restoreFrom$0$3 in changed.mixins.json:entity.ServerPlayerMixin
+[076月2024 22:04:47.101] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.WanderingTraderMixin from changed.mixins.json into net.minecraft.world.entity.npc.WanderingTrader
+[076月2024 22:04:47.102] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/LivingEntity;)Z to mdc9d8ee$lambda$registerGoals$0$0 in changed.mixins.json:entity.WanderingTraderMixin
+[076月2024 22:04:47.325] [pool-3-thread-1/DEBUG] [mixin/]: Mixing TreeFeaturesMixin from changed.mixins.json into net.minecraft.data.worldgen.features.TreeFeatures
+[076月2024 22:04:47.393] [pool-3-thread-1/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `deferred_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[076月2024 22:04:47.394] [pool-3-thread-1/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `mixed_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[076月2024 22:04:47.833] [pool-3-thread-1/DEBUG] [mixin/]: Mixing StructurePiecesBuilderMixin from changed.mixins.json into net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder
+[076月2024 22:04:48.804] [pool-3-thread-1/DEBUG] [mixin/]: Mixing item.ShovelItemMixin from changed.mixins.json into net.minecraft.world.item.ShovelItem
+[076月2024 22:04:48.808] [pool-3-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$useOn$0(Lnet/minecraft/world/item/context/UseOnContext;Lnet/minecraft/world/entity/player/Player;)V to mdc9d8ee$lambda$useOn$0$0 in changed.mixins.json:item.ShovelItemMixin
+[076月2024 22:04:49.009] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[076月2024 22:04:49.573] [pool-3-thread-1/DEBUG] [mixin/]: Mixing entity.VillagerHostilesSensorMixin from changed.mixins.json into net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor
+[076月2024 22:04:50.279] [Render thread/DEBUG] [mixin/]: Mixing core.pipeline.MixinBufferBuilder from embeddium.mixins.json into com.mojang.blaze3d.vertex.BufferBuilder
+[076月2024 22:04:50.290] [Render thread/DEBUG] [mixin/]: Mixing features.buffer_builder.fast_advance.MixinBufferBuilder from embeddium.mixins.json into com.mojang.blaze3d.vertex.BufferBuilder
+[076月2024 22:04:50.294] [Render thread/DEBUG] [mixin/]: Mixing features.buffer_builder.intrinsics.MixinBufferBuilder from embeddium.mixins.json into com.mojang.blaze3d.vertex.BufferBuilder
+[076月2024 22:04:50.320] [Render thread/DEBUG] [mixin/]: Mixing core.pipeline.MixinVertexConsumer from embeddium.mixins.json into com.mojang.blaze3d.vertex.VertexConsumer
+[076月2024 22:04:50.320] [Render thread/DEBUG] [mixin/]: Mixing features.matrix_stack.MixinVertexConsumer from embeddium.mixins.json into com.mojang.blaze3d.vertex.VertexConsumer
+[076月2024 22:04:50.589] [Render thread/DEBUG] [mixin/]: Mixing core.matrix.MixinMatrix3f from embeddium.mixins.json into com.mojang.math.Matrix3f
+[076月2024 22:04:50.610] [Render thread/DEBUG] [mixin/]: Mixing render.PoseStackMixin from changed.mixins.json into com.mojang.blaze3d.vertex.PoseStack
+[076月2024 22:04:50.713] [Render thread/DEBUG] [mixin/]: Mixing features.matrix_stack.MixinMatrixStack from embeddium.mixins.json into com.mojang.blaze3d.vertex.PoseStack
+[076月2024 22:04:50.725] [Render thread/DEBUG] [mixin/]: Mixing core.MixinMinecraftClient from embeddium.mixins.json into net.minecraft.client.Minecraft
+[076月2024 22:04:50.726] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$postInit$0(Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/Screen; to mdc9d8ee$lambda$postInit$0$0 in embeddium.mixins.json:core.MixinMinecraftClient
+[076月2024 22:04:51.083] [Render thread/DEBUG] [mixin/]: Mixing gui.TitleScreenMixin from changed.mixins.json into net.minecraft.client.gui.screens.TitleScreen
+[076月2024 22:04:51.084] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$initChangedBPI$0(Lnet/minecraft/client/gui/components/Button;)V to mdc9d8ee$lambda$initChangedBPI$0$0 in changed.mixins.json:gui.TitleScreenMixin
+[076月2024 22:04:51.137] [Render thread/DEBUG] [mixin/]: Mixing gui.GuiMixin from changed.mixins.json into net.minecraft.client.gui.Gui
+[076月2024 22:04:51.137] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderSelectedItemName$4(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderSelectedItemName$4$0 in changed.mixins.json:gui.GuiMixin
+[076月2024 22:04:51.138] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderHotbar$3(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderHotbar$3$1 in changed.mixins.json:gui.GuiMixin
+[076月2024 22:04:51.138] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderEffects$2(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderEffects$2$2 in changed.mixins.json:gui.GuiMixin
+[076月2024 22:04:51.139] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderEffects$1(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;FLcom/mojang/blaze3d/vertex/PoseStack;II)V to mdc9d8ee$lambda$renderEffects$1$3 in changed.mixins.json:gui.GuiMixin
+[076月2024 22:04:51.139] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderHeart$0(Lnet/minecraft/client/gui/Gui$HeartType;Lcom/mojang/blaze3d/vertex/PoseStack;IIZZILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderHeart$0$4 in changed.mixins.json:gui.GuiMixin
+[076月2024 22:04:51.210] [Render thread/DEBUG] [mixin/]: Mixing gui.ForgeIngameGuiMixin from changed.mixins.json into net.minecraftforge.client.gui.ForgeIngameGui
+[076月2024 22:04:51.211] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderAir$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderAir$0$0 in changed.mixins.json:gui.ForgeIngameGuiMixin
+[076月2024 22:04:51.212] [Render thread/DEBUG] [mixin/]: Mixing features.options.MixinInGameHud from embeddium.mixins.json into net.minecraftforge.client.gui.ForgeIngameGui
+[076月2024 22:04:51.268] [Render thread/DEBUG] [mixin/]: Mixing client.ClientLevelMixin from changed.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[076月2024 22:04:51.272] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$playLocalSound$2(Ljava/util/concurrent/atomic/AtomicBoolean;Lnet/minecraft/sounds/SoundEvent;FFZLcom/mojang/datafixers/util/Pair;)V to mdc9d8ee$lambda$playLocalSound$2$0 in changed.mixins.json:client.ClientLevelMixin
+[076月2024 22:04:51.272] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$playLocalSound$1(Lnet/minecraft/sounds/SoundEvent;FFZLcom/mojang/datafixers/util/Pair;)V to mdc9d8ee$lambda$playLocalSound$1$1 in changed.mixins.json:client.ClientLevelMixin
+[076月2024 22:04:51.272] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getBlockStatePairsIfLoaded$0(Lnet/minecraft/core/BlockPos;)Lcom/mojang/datafixers/util/Pair; to mdc9d8ee$lambda$getBlockStatePairsIfLoaded$0$2 in changed.mixins.json:client.ClientLevelMixin
+[076月2024 22:04:51.277] [Render thread/DEBUG] [mixin/]: Mixing features.chunk_rendering.MixinClientWorld from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[076月2024 22:04:51.279] [Render thread/DEBUG] [mixin/]: Mixing features.fast_biome_colors.MixinClientWorld from embeddium.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[076月2024 22:04:51.279] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectSampleColor$0(Lnet/minecraft/world/level/Level;III)I to mdc9d8ee$lambda$redirectSampleColor$0$3 in embeddium.mixins.json:features.fast_biome_colors.MixinClientWorld
+[076月2024 22:04:51.372] [Render thread/DEBUG] [mixin/]: Mixing gui.PauseScreenMixin from changed.mixins.json into net.minecraft.client.gui.screens.PauseScreen
+[076月2024 22:04:51.373] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$initChangedBPI$0(Lnet/minecraft/client/gui/components/Button;)V to mdc9d8ee$lambda$initChangedBPI$0$0 in changed.mixins.json:gui.PauseScreenMixin
+[076月2024 22:04:51.381] [Render thread/DEBUG] [mixin/]: Mixing entity.LocalPlayerMixin from changed.mixins.json into net.minecraft.client.player.LocalPlayer
+[076月2024 22:04:51.382] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$isMovingSlowly$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$isMovingSlowly$2$0 in changed.mixins.json:entity.LocalPlayerMixin
+[076月2024 22:04:51.382] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$aiStep$1(Lnet/minecraft/client/player/LocalPlayer;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$aiStep$1$1 in changed.mixins.json:entity.LocalPlayerMixin
+[076月2024 22:04:51.383] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getWaterVision$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getWaterVision$0$2 in changed.mixins.json:entity.LocalPlayerMixin
+[076月2024 22:04:51.487] [Render thread/DEBUG] [mixin/]: Mixing gui.InventoryScreenMixin from changed.mixins.json into net.minecraft.client.gui.screens.inventory.InventoryScreen
+[076月2024 22:04:51.487] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderBg$1(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderBg$1$0 in changed.mixins.json:gui.InventoryScreenMixin
+[076月2024 22:04:51.488] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderLabels$0(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderLabels$0$1 in changed.mixins.json:gui.InventoryScreenMixin
+[076月2024 22:04:51.521] [Render thread/DEBUG] [mixin/]: Mixing gui.EffectRenderingInventoryScreenMixin from changed.mixins.json into net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen
+[076月2024 22:04:51.521] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderBackgrounds$0(Ljava/lang/Iterable;ZLcom/mojang/blaze3d/vertex/PoseStack;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderBackgrounds$0$0 in changed.mixins.json:gui.EffectRenderingInventoryScreenMixin
+[076月2024 22:04:51.532] [Render thread/DEBUG] [mixin/]: Mixing gui.AbstractContainerScreenMixin from changed.mixins.json into net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
+[076月2024 22:04:51.533] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderSlot$0(Lnet/minecraft/world/inventory/Slot;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderSlot$0$0 in changed.mixins.json:gui.AbstractContainerScreenMixin
+[076月2024 22:04:51.552] [Render thread/DEBUG] [mixin/]: Mixing features.gui.fast_loading_screen.MixinLevelLoadingScreen from embeddium.mixins.json into net.minecraft.client.gui.screens.LevelLoadingScreen
+[076月2024 22:04:51.553] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$drawChunkMap$0(Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)V to mdc9d8ee$lambda$drawChunkMap$0$0 in embeddium.mixins.json:features.gui.fast_loading_screen.MixinLevelLoadingScreen
+[076月2024 22:04:51.742] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/assets/.mcassetsroot' uses unexpected schema
+[076月2024 22:04:51.743] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/data/.mcassetsroot' uses unexpected schema
+[076月2024 22:04:51.758] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[076月2024 22:04:51.765] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[076月2024 22:04:51.781] [Render thread/DEBUG] [mixin/]: Mixing client.OptionsMixin from changed.mixins.json into net.minecraft.client.Options
+[076月2024 22:04:51.799] [Render thread/DEBUG] [mixin/]: Mixing client.TutorialMixin from changed.mixins.json into net.minecraft.client.tutorial.Tutorial
+[076月2024 22:04:52.091] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[076月2024 22:04:53.450] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5364
+[076月2024 22:04:53.501] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[076月2024 22:04:53.532] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.532] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.mcreator.changedplusindustry.ChangedPlusIndustryMod
+[076月2024 22:04:53.536] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.536] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[076月2024 22:04:53.539] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.539] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for github.com.gengyoubo.changedplus.other.welcome
+[076月2024 22:04:53.540] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.540] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for me.jellysquid.mods.sodium.client.SodiumClientMod
+[076月2024 22:04:53.541] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.541] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for me.jellysquid.mods.sodium.client.RubidiumStub
+[076月2024 22:04:53.542] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.542] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.forge.JustEnoughItems
+[076月2024 22:04:53.543] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@76ad6715 - got cpw.mods.cl.ModuleClassLoader@29d334c
+[076月2024 22:04:53.543] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.ltxprogrammer.changed.Changed
+[076月2024 22:04:53.667] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for changed_plus_industry
+[076月2024 22:04:53.684] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 40.2 from cpw.mods.modlauncher.TransformingClassLoader@76ad6715
+[076月2024 22:04:53.685] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 40.2.21
+[076月2024 22:04:53.685] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 40.2
+[076月2024 22:04:53.686] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[076月2024 22:04:53.687] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@76ad6715
+[076月2024 22:04:53.687] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.18.2
+[076月2024 22:04:53.687] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220404.173914
+[076月2024 22:04:53.687] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+[076月2024 22:04:53.699] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
+[076月2024 22:04:53.729] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for changedplus
+[076月2024 22:04:53.740] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.other.welcome to FORGE
+[076月2024 22:04:53.793] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModEventSubscriberItem to MOD
+[076月2024 22:04:53.800] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModEventSubscriberEntityType to MOD
+[076月2024 22:04:53.801] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModEventSubscriberEntityBlock to MOD
+[076月2024 22:04:53.804] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModContainerTypes to MOD
+[076月2024 22:04:53.805] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.item.item.long_latex_stick to FORGE
+[076月2024 22:04:53.819] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing github.com.gengyoubo.changedplus.item.item.Latex_sword to FORGE
+[076月2024 22:04:53.823] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for embeddium
+[076月2024 22:04:53.825] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for rubidium
+[076月2024 22:04:53.833] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[076月2024 22:04:53.852] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file jei-client.toml for jei tracking
+[076月2024 22:04:53.853] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[076月2024 22:04:53.860] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file changed-common.toml for changed tracking
+[076月2024 22:04:53.860] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file changed-client.toml for changed tracking
+[076月2024 22:04:53.860] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file changed-server.toml for changed tracking
+[076月2024 22:04:53.861] [modloading-worker-0/DEBUG] [net.ltxprogrammer.changed.ChangedConfig/CONFIG]: Early loading config file type CLIENT at changed-client.toml for changed
+[076月2024 22:04:53.862] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml
+[076月2024 22:04:53.863] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml
+[076月2024 22:04:53.867] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml for changes
+[076月2024 22:04:53.868] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[076月2024 22:04:53.868] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[076月2024 22:04:53.869] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[076月2024 22:04:53.870] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[076月2024 22:04:53.870] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[076月2024 22:04:53.871] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:151) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.2.21.jar%2381!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[076月2024 22:04:53.874] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[076月2024 22:04:53.875] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2336!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:151) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.2.21.jar%2381!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[076月2024 22:04:53.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[076月2024 22:04:53.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[076月2024 22:04:53.996] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 2069889024 bytes (maybe)
+[076月2024 22:04:53.997] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Administrator\AppData\Local\Temp (java.io.tmpdir)
+[076月2024 22:04:53.997] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[076月2024 22:04:53.997] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[076月2024 22:04:53.998] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[076月2024 22:04:53.998] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[076月2024 22:04:53.999] [modloading-worker-0/DEBUG] [mixin/]: Mixing render.CameraMixin from changed.mixins.json into net.minecraft.client.Camera
+[076月2024 22:04:54.000] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$setPositionAndAdjustForVariant$1(Lnet/minecraft/client/Camera;Lnet/minecraft/world/phys/Vec3;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$setPositionAndAdjustForVariant$1$0 in changed.mixins.json:render.CameraMixin
+[076月2024 22:04:54.000] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[076月2024 22:04:54.000] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$animateCamera$0(FLnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$animateCamera$0$1 in changed.mixins.json:render.CameraMixin
+[076月2024 22:04:54.000] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[076月2024 22:04:54.032] [modloading-worker-0/DEBUG] [mixin/]: Mixing render.PlayerRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
+[076月2024 22:04:54.056] [modloading-worker-0/DEBUG] [mixin/]: Mixing features.entity.cull.MixinEntityRenderer from embeddium.mixins.json into net.minecraft.client.renderer.entity.EntityRenderer
+[076月2024 22:04:54.158] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[076月2024 22:04:54.177] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[076月2024 22:04:54.177] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[076月2024 22:04:54.178] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[076月2024 22:04:54.293] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for changed
+[076月2024 22:04:54.295] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.util.PatreonBenefits$EventSub to FORGE
+[076月2024 22:04:54.298] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.process.ProcessTransfur to FORGE
+[076月2024 22:04:54.308] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[076月2024 22:04:54.309] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[076月2024 22:04:54.310] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[076月2024 22:04:54.313] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.WearableItem$Event to FORGE
+[076月2024 22:04:54.315] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.TscShield$ShieldEvent to FORGE
+[076月2024 22:04:54.318] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.SpecializedItemRendering$Event to MOD
+[076月2024 22:04:54.319] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.LatexTippedArrowItem to FORGE
+[076月2024 22:04:54.319] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.LatexSyringe$ClientInitializer to MOD
+[076月2024 22:04:54.321] [modloading-worker-0/DEBUG] [mixin/]: Mixing core.model.MixinItemColors from embeddium.mixins.json into net.minecraft.client.color.item.ItemColors
+[076月2024 22:04:54.321] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0(Lnet/minecraft/world/item/ItemStack;I)I to mdc9d8ee$lambda$static$0$0 in embeddium.mixins.json:core.model.MixinItemColors
+[076月2024 22:04:54.437] [modloading-worker-0/DEBUG] [mixin/]: Mixing block.BlockColorsMixin from changed.mixins.json into net.minecraft.client.color.block.BlockColors
+[076月2024 22:04:54.437] [modloading-worker-0/DEBUG] [mixin/]: Mixing core.model.MixinBlockColors from embeddium.mixins.json into net.minecraft.client.color.block.BlockColors
+[076月2024 22:04:54.438] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0(Ljava/lang/Object;Lnet/minecraft/world/level/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;I)I to mdc9d8ee$lambda$static$0$0 in embeddium.mixins.json:core.model.MixinBlockColors
+[076月2024 22:04:54.461] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.LatexFusingItem to FORGE
+[076月2024 22:04:54.461] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[076月2024 22:04:54.461] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.LatexFusingItem$Event to FORGE
+[076月2024 22:04:54.462] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.FurnaceFuel to FORGE
+[076月2024 22:04:54.463] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[076月2024 22:04:54.464] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.DyeableQuadrupedalArmor$ClientInitializer to MOD
+[076月2024 22:04:54.465] [modloading-worker-0/DEBUG] [mixin/]: Mixing features.shader.uniform.MixinShader from embeddium.mixins.json into net.minecraft.client.renderer.ShaderInstance
+[076月2024 22:04:54.465] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.item.DyeableAbdomenArmor$ClientInitializer to MOD
+[076月2024 22:04:54.484] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedTextures to MOD
+[076月2024 22:04:54.488] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedStructureSets to FORGE
+[076月2024 22:04:54.488] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedSounds to MOD
+[076月2024 22:04:54.489] [modloading-worker-0/DEBUG] [mixin/]: Mixing client.ForgeHooksClientMixin from changed.mixins.json into net.minecraftforge.client.ForgeHooksClient
+[076月2024 22:04:54.490] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedScreens to MOD
+[076月2024 22:04:54.495] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedRegistry to MOD
+[076月2024 22:04:54.496] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedRecipeTypes to MOD
+[076月2024 22:04:54.502] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedParticles to MOD
+[076月2024 22:04:54.508] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedPaintings to MOD
+[076月2024 22:04:54.509] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedMenus to MOD
+[076月2024 22:04:54.520] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedLootItemFunctions to MOD
+[076月2024 22:04:54.523] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedLayerDefinitions to MOD
+[076月2024 22:04:54.526] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedKeyMappings to MOD
+[076月2024 22:04:54.527] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedKeyMappings$KeyEventListener to FORGE
+[076月2024 22:04:54.529] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedItems to MOD
+[076月2024 22:04:54.529] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedItemProperties to MOD
+[076月2024 22:04:54.530] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedGameRules to FORGE
+[076月2024 22:04:54.539] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedFeatures to FORGE
+[076月2024 22:04:54.547] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedEntityRenderers to MOD
+[076月2024 22:04:54.549] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedEntities to MOD
+[076月2024 22:04:54.569] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedEffects to MOD
+[076月2024 22:04:54.571] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedCriteriaTriggers to FORGE
+[076月2024 22:04:54.641] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedBlocks to MOD
+[076月2024 22:04:54.642] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedBlocks$ClientInitializer to MOD
+[076月2024 22:04:54.644] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedBlockEntityRenderers to MOD
+[076月2024 22:04:54.644] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedBlockEntities to FORGE
+[076月2024 22:04:54.644] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.init.ChangedBiomes$BiomeInjector to FORGE
+[076月2024 22:04:54.646] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.fluid.AbstractLatexFluid to FORGE
+[076月2024 22:04:54.649] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.entity.variant.LatexVariantInstance to FORGE
+[076月2024 22:04:54.656] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.entity.variant.LatexVariant to MOD
+[076月2024 22:04:54.669] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.entity.beast.SpecialLatex$Event to FORGE
+[076月2024 22:04:54.670] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.entity.beast.AbstractLatexShark to FORGE
+[076月2024 22:04:54.751] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.command.CommandUUID to FORGE
+[076月2024 22:04:54.752] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.command.CommandTransfur to FORGE
+[076月2024 22:04:54.757] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.command.CommandPale to FORGE
+[076月2024 22:04:54.758] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.command.CommandEmote to FORGE
+[076月2024 22:04:54.759] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.client.LatexCoveredBlocks$ModEvents to MOD
+[076月2024 22:04:54.767] [modloading-worker-0/DEBUG] [mixin/]: Mixing render.ModelBakeryMixin from changed.mixins.json into net.minecraft.client.resources.model.ModelBakery
+[076月2024 22:04:54.783] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.client.gui.VariantBlindnessOverlay to FORGE
+[076月2024 22:04:54.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.client.EventHandlerClient to MOD
+[076月2024 22:04:54.786] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.client.EventHandlerClient$ForgeEventHandler to FORGE
+[076月2024 22:04:54.788] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.client.ChangedOverlays to FORGE
+[076月2024 22:04:54.790] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.WhiteLatexTransportInterface$EventSubscriber to FORGE
+[076月2024 22:04:54.792] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.WhiteLatexBlock to FORGE
+[076月2024 22:04:54.797] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.WearableBlock$Event to FORGE
+[076月2024 22:04:54.798] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.RetinalScanner to FORGE
+[076月2024 22:04:54.799] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.entity.BedsideIVRackBlockEntity$EventHandler to FORGE
+[076月2024 22:04:54.800] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.ltxprogrammer.changed.block.DarkLatexBlock to FORGE
+[076月2024 22:04:54.806] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_variant]
+[076月2024 22:04:54.806] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:ability]
+[076月2024 22:04:54.806] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:hair_style]
+[076月2024 22:04:54.807] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:player_mover]
+[076月2024 22:04:54.807] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_particle_type]
+[076月2024 22:04:55.542] [Render thread/DEBUG] [mixin/]: Mixing render.RenderTypeMixin from changed.mixins.json into net.minecraft.client.renderer.RenderType
+[076月2024 22:04:55.545] [Render thread/DEBUG] [mixin/]: Mixing features.chunk_rendering.MixinRenderLayer from embeddium.mixins.json into net.minecraft.client.renderer.RenderType
+[076月2024 22:04:55.557] [Render thread/DEBUG] [mixin/]: Mixing render.ItemBlockRenderTypesMixin from changed.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
+[076月2024 22:04:55.559] [Render thread/DEBUG] [mixin/]: Mixing features.render_layer.leaves.MixinRenderLayers from embeddium.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
+[076月2024 22:04:55.656] [Render thread/DEBUG] [mixin/]: Mixing render.GameRendererMixin from changed.mixins.json into net.minecraft.client.renderer.GameRenderer
+[076月2024 22:04:55.656] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadChangedShaders$3(Lcom/mojang/datafixers/util/Pair;)V to mdc9d8ee$lambda$reloadChangedShaders$3$0 in changed.mixins.json:render.GameRendererMixin
+[076月2024 22:04:55.656] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadChangedShaders$2(Lcom/mojang/datafixers/util/Pair;)V to mdc9d8ee$lambda$reloadChangedShaders$2$1 in changed.mixins.json:render.GameRendererMixin
+[076月2024 22:04:55.656] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$bobView$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$bobView$1$2 in changed.mixins.json:render.GameRendererMixin
+[076月2024 22:04:55.656] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getNightVisionScale$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getNightVisionScale$0$3 in changed.mixins.json:render.GameRendererMixin
+[076月2024 22:04:55.709] [Render thread/DEBUG] [mixin/]: Mixing render.TextureAtlasMixin from changed.mixins.json into net.minecraft.client.renderer.texture.TextureAtlas
+[076月2024 22:04:55.737] [Render thread/DEBUG] [mixin/]: Mixing features.texture_tracking.MixinSpriteAtlasTexture from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlas
+[076月2024 22:04:55.894] [Render thread/DEBUG] [mixin/]: Mixing core.pipeline.MixinVertexFormat from embeddium.mixins.json into com.mojang.blaze3d.vertex.VertexFormat
+[076月2024 22:04:55.894] [Render thread/DEBUG] [mixin/]: Mixing features.buffer_builder.fast_advance.MixinVertexFormat from embeddium.mixins.json into com.mojang.blaze3d.vertex.VertexFormat
+[076月2024 22:04:55.912] [Render thread/DEBUG] [mixin/]: Mixing item.ItemRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.ItemRenderer
+[076月2024 22:04:55.923] [Render thread/DEBUG] [mixin/]: Mixing features.item.MixinItemRenderer from embeddium.mixins.json into net.minecraft.client.renderer.entity.ItemRenderer
+[076月2024 22:04:56.180] [Render thread/DEBUG] [mixin/]: Mixing render.HumanoidModelMixin from changed.mixins.json into net.minecraft.client.model.HumanoidModel
+[076月2024 22:04:56.378] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRef/]: Unable to lookup changedplus:latex_generator_screen_menu for public static net.minecraft.world.inventory.MenuType github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModContainerTypes.LATEX_GENERATOR_SCREEN_MENU. This means the object wasn't registered. It's likely just mod options.
+[076月2024 22:04:56.623] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:changed_plus_industry for mod file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\build\resources\main
+[076月2024 22:04:56.623] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[076月2024 22:04:56.624] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:changedplus for mod file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\mods\changedplus-0.0.3a.jar
+[076月2024 22:04:56.624] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:embeddium for mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\org\embeddedt\embeddium-1.18.2\0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2\embeddium-1.18.2-0.2.11-git.669ff54+mc1.18.2_mapped_official_1.18.2.jar
+[076月2024 22:04:56.624] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.7.1.255_mapped_official_1.18.2\jei-1.18.2-9.7.1.255_mapped_official_1.18.2.jar
+[076月2024 22:04:56.625] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:changed for mod file C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar
+[076月2024 22:04:56.721] [Render thread/DEBUG] [mixin/]: Mixing client.SkinManagerMixin from changed.mixins.json into net.minecraft.client.resources.SkinManager
+[076月2024 22:04:57.307] [Render thread/DEBUG] [mixin/]: Mixing gui.SplashManagerMixin from changed.mixins.json into net.minecraft.client.resources.SplashManager
+[076月2024 22:04:57.353] [Render thread/DEBUG] [mixin/]: Mixing features.gui.font.MixinGlyphRenderer from embeddium.mixins.json into net.minecraft.client.gui.font.glyphs.BakedGlyph
+[076月2024 22:04:57.709] [Render thread/DEBUG] [mixin/]: Mixing render.EntityRenderDispatcherMixin from changed.mixins.json into net.minecraft.client.renderer.entity.EntityRenderDispatcher
+[076月2024 22:04:57.741] [Render thread/DEBUG] [mixin/]: Mixing render.ItemInHandRendererMixin from changed.mixins.json into net.minecraft.client.renderer.ItemInHandRenderer
+[076月2024 22:04:57.742] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$renderHandsWithItems$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$renderHandsWithItems$0$0 in changed.mixins.json:render.ItemInHandRendererMixin
+[076月2024 22:04:57.953] [Render thread/DEBUG] [mixin/]: Mixing features.texture_tracking.MixinSprite from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlasSprite
+[076月2024 22:04:58.065] [Render thread/DEBUG] [mixin/]: Mixing features.block.MixinBlockModelRenderer from embeddium.mixins.json into net.minecraft.client.renderer.block.ModelBlockRenderer
+[076月2024 22:04:58.135] [Render thread/DEBUG] [mixin/]: Mixing render.LevelRendererMixin from changed.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.141] [Render thread/DEBUG] [mixin/]: Mixing features.block.MixinWorldRenderer from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.142] [Render thread/DEBUG] [mixin/]: Mixing features.buffer_builder.intrinsics.MixinWorldRenderer from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.150] [Render thread/DEBUG] [mixin/]: Mixing features.chunk_rendering.MixinWorldRenderer from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.156] [Render thread/DEBUG] [mixin/]: Mixing features.options.MixinWorldRenderer from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.156] [Render thread/DEBUG] [mixin/]: Mixing features.sky.MixinWorldRenderer from embeddium.mixins.json into net.minecraft.client.renderer.LevelRenderer
+[076月2024 22:04:58.434] [Render thread/DEBUG] [mixin/]: Mixing EnchantmentHelperMixin from changed.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[076月2024 22:04:58.434] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getRespirationOrIfStrong$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$getRespirationOrIfStrong$1$0 in changed.mixins.json:EnchantmentHelperMixin
+[076月2024 22:04:58.434] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$hasAquaAffinity$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdc9d8ee$lambda$hasAquaAffinity$0$1 in changed.mixins.json:EnchantmentHelperMixin
+[076月2024 22:04:58.738] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[076月2024 22:04:58.738] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[076月2024 22:04:58.739] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x24589a71b1f86e02
+[076月2024 22:04:58.846] [Render thread/DEBUG] [mixin/]: Mixing features.texture_tracking.MixinSpriteBillboardParticle from embeddium.mixins.json into net.minecraft.client.particle.TextureSheetParticle
+[076月2024 22:04:58.856] [Render thread/DEBUG] [mixin/]: Mixing features.particle.fast_render.MixinBillboardParticle from embeddium.mixins.json into net.minecraft.client.particle.SingleQuadParticle
+[076月2024 22:04:59.131] [Render thread/DEBUG] [mixin/]: Mixing features.debug.MixinDebugHud from embeddium.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[076月2024 22:04:59.139] [Render thread/DEBUG] [mixin/]: Mixing features.gui.MixinDebugHud from embeddium.mixins.json into net.minecraft.client.gui.components.DebugScreenOverlay
+[076月2024 22:04:59.250] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[076月2024 22:04:59.594] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[076月2024 22:04:59.794] [Render thread/DEBUG] [mixin/]: Mixing render.EntityRenderersMixin from changed.mixins.json into net.minecraft.client.renderer.entity.EntityRenderers
+[076月2024 22:04:59.810] [Render thread/DEBUG] [mixin/]: Mixing render.HumanoidMobRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.HumanoidMobRenderer
+[076月2024 22:04:59.928] [Render thread/DEBUG] [mixin/]: Mixing render.CustomHeadLayerMixin from changed.mixins.json into net.minecraft.client.renderer.entity.layers.CustomHeadLayer
+[076月2024 22:05:00.133] [Render thread/DEBUG] [mixin/]: Mixing render.FallingBlockRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.FallingBlockRenderer
+[076月2024 22:05:01.133] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[076月2024 22:05:01.157] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[076月2024 22:05:01.158] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\jei-client.toml
+[076月2024 22:05:01.180] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\jei-client.toml
+[076月2024 22:05:01.216] [Render thread/DEBUG] [mixin/]: Mixing features.options.MixinOptionsScreen from embeddium.mixins.json into net.minecraft.client.gui.screens.OptionsScreen
+[076月2024 22:05:01.221] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\jei-client.toml for changes
+[076月2024 22:05:01.229] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml
+[076月2024 22:05:01.230] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml
+[076月2024 22:05:01.230] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-client.toml for changes
+[076月2024 22:05:01.231] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-client.toml
+[076月2024 22:05:01.233] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-client.toml
+[076月2024 22:05:01.233] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-client.toml for changes
+[076月2024 22:05:01.233] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file jei-client.toml changed, sending notifies
+[076月2024 22:05:01.233] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[076月2024 22:05:01.235] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[076月2024 22:05:01.235] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-common.toml
+[076月2024 22:05:01.235] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-common.toml
+[076月2024 22:05:01.236] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\changed-common.toml for changes
+[076月2024 22:05:01.236] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-common.toml
+[076月2024 22:05:01.237] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-common.toml
+[076月2024 22:05:01.237] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Administrator\MCreatorWorkspaces\changed_plus_industry\run\config\forge-common.toml for changes
+[076月2024 22:05:01.238] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[076月2024 22:05:01.344] [Render thread/DEBUG] [mixin/]: Mixing features.fast_biome_colors.MixinBackgroundRenderer from embeddium.mixins.json into net.minecraft.client.renderer.FogRenderer
+[076月2024 22:05:01.344] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectSampleColor$1(Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3; to mdc9d8ee$lambda$redirectSampleColor$1$0 in embeddium.mixins.json:features.fast_biome_colors.MixinBackgroundRenderer
+[076月2024 22:05:01.344] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectSampleColor$0(Lnet/minecraft/client/multiplayer/ClientLevel;III)I to mdc9d8ee$lambda$redirectSampleColor$0$1 in embeddium.mixins.json:features.fast_biome_colors.MixinBackgroundRenderer
+[076月2024 22:05:01.373] [Worker-Main-8/DEBUG] [mixin/]: Mixing render.ModelPartMixin from changed.mixins.json into net.minecraft.client.model.geom.ModelPart
+[076月2024 22:05:01.374] [Worker-Main-8/DEBUG] [mixin/]: Renaming synthetic method lambda$andCompileTriangles$0(Lcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFFLnet/ltxprogrammer/changed/client/Triangle;)V to mdc9d8ee$lambda$andCompileTriangles$0$0 in changed.mixins.json:render.ModelPartMixin
+[076月2024 22:05:01.376] [Worker-Main-8/DEBUG] [mixin/]: Mixing features.entity.fast_render.MixinModelPart from embeddium.mixins.json into net.minecraft.client.model.geom.ModelPart
+[076月2024 22:05:02.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[076月2024 22:05:04.286] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.2.0",
+    "1.18.2-latest": "40.2.21",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.4.0",
+    "1.19.2-latest": "43.4.0",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.3.0",
+    "1.19.4-latest": "45.3.0",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.3.0",
+    "1.20.1-latest": "47.3.1",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.1.0",
+    "1.20.4-recommended": "49.1.0",
+    "1.20.6-latest": "50.1.3",
+    "1.20.6-recommended": "50.1.0"
+  }
+}
+[076月2024 22:05:04.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.2.21 Target: null
+[076月2024 22:05:04.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changedplus] Starting version check at https://legacy.curseforge.com/minecraft/mc-mods/changed-plus
+[076月2024 22:05:04.448] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [changedplus] Received version check data:
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131}button,html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}body a{color:#fff}body a:hover{color:#ee730a;text-decoration:underline}body .lds-ring div{border-color:#999 transparent transparent}body .font-red{color:#b20f03}body .pow-button{background-color:#4693ff;color:#1d1d1d}body #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}}body{display:flex;flex-direction:column;min-height:100vh}body.no-js .loading-spinner{visibility:hidden}body.no-js .challenge-running{display:none}body.dark{background-color:#222;color:#d9d9d9}body.dark a{color:#fff}body.dark a:hover{color:#ee730a;text-decoration:underline}body.dark .lds-ring div{border-color:#999 transparent transparent}body.dark .font-red{color:#b20f03}body.dark .pow-button{background-color:#4693ff;color:#1d1d1d}body.dark #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjZDlkOWQ5IiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.dark #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}body.light{background-color:transparent;color:#313131}body.light a{color:#0051c3}body.light a:hover{color:#ee730a;text-decoration:underline}body.light .lds-ring div{border-color:#595959 transparent transparent}body.light .font-red{color:#fc574a}body.light .pow-button{background-color:#003681;border-color:#003681;color:#fff}body.light #challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=)}body.light #challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)}a{background-color:transparent;color:#0051c3;text-decoration:none;transition:color .15s ease}a:hover{color:#ee730a;text-decoration:underline}.main-content{margin:8rem auto;max-width:60rem;width:100%}.heading-favicon{height:2rem;margin-right:.5rem;width:2rem}@media (width <= 720px){.main-content{margin-top:4rem}.heading-favicon{height:1.5rem;width:1.5rem}}.footer,.main-content{padding-left:1.5rem;padding-right:1.5rem}.main-wrapper{align-items:center;display:flex;flex:1;flex-direction:column}.font-red{color:#b20f03}.spacer{margin:2rem 0}.h1{font-size:2.5rem;font-weight:500;line-height:3.75rem}.h2{font-weight:500}.core-msg,.h2{font-size:1.5rem;line-height:2.25rem}.body-text,.core-msg{font-weight:400}.body-text{font-size:1rem;line-height:1.25rem}@media (width <= 720px){.h1{font-size:1.5rem;line-height:1.75rem}.h2{font-size:1.25rem}.core-msg,.h2{line-height:1.5rem}.core-msg{font-size:1rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZjNTc0YSIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjZmM1NzRhIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);padding-left:34px}#challenge-error-text,#challenge-success-text{background-repeat:no-repeat;background-size:contain}#challenge-success-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI2IDI2Ij48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJNMTMgMGExMyAxMyAwIDEgMCAwIDI2IDEzIDEzIDAgMCAwIDAtMjZtMCAyNGExMSAxMSAwIDEgMSAwLTIyIDExIDExIDAgMCAxIDAgMjIiLz48cGF0aCBmaWxsPSIjMzEzMTMxIiBkPSJtMTAuOTU1IDE2LjA1NS0zLjk1LTQuMTI1LTEuNDQ1IDEuMzg1IDUuMzcgNS42MSA5LjQ5NS05LjYtMS40Mi0xLjQwNXoiLz48L3N2Zz4=);padding-left:42px}.text-center{text-align:center}.pow-button{background-color:#0051c3;border:.063rem solid #0051c3;border-radius:.313rem;color:#fff;font-size:.875rem;line-height:1.313rem;margin:2rem 0;padding:.375rem 1rem;transition-duration:.2s;transition-property:background-color,border-color,color;transition-timing-function:ease}.pow-button:hover{background-color:#003681;border-color:#003681;color:#fff;cursor:pointer}.footer{font-size:.75rem;line-height:1.125rem;margin:0 auto;max-width:60rem;width:100%}.footer-inner{border-top:1px solid #d9d9d9;padding-bottom:1rem;padding-top:1rem}.clearfix:after{clear:both;content:"";display:table}.clearfix .column{float:left;padding-right:1.5rem;width:50%}.diagnostic-wrapper{margin-bottom:.5rem}.footer .ray-id{text-align:center}.footer .ray-id code{font-family:monaco,courier,monospace}.core-msg,.zone-name-title{overflow-wrap:break-word}@media (width <= 720px){.diagnostic-wrapper{display:flex;flex-wrap:wrap;justify-content:center}.clearfix:after{clear:none;content:none;display:initial;text-align:center}.column{padding-bottom:2rem}.clearfix .column{float:none;padding:0;width:auto;word-break:keep-all}.zone-name-title{margin-bottom:1rem}}.loading-spinner{height:76.391px}.lds-ring{display:inline-block;position:relative}.lds-ring,.lds-ring div{height:1.875rem;width:1.875rem}.lds-ring div{animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border:.3rem solid transparent;border-radius:50%;border-top-color:#313131;box-sizing:border-box;display:block;position:absolute}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}to{transform:rotate(1turn)}}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){.main-wrapper,body{display:block}}.rtl .heading-favicon{margin-left:.5rem;margin-right:0}.rtl #challenge-success-text{background-position:100%;padding-left:0;padding-right:42px}.rtl #challenge-error-text{background-position:100%;padding-left:0;padding-right:34px}</style><meta http-equiv="refresh" content="390"></head><body class="no-js"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div id="challenge-error-title"><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "legacy.curseforge.com",cType: 'interactive',cNounce: '18804',cRay: '8900d9ffbaa529e3',cHash: '6dfc7ce9cb115ef',cUPMDTk: "\/minecraft\/mc-mods\/changed-plus?__cf_chl_tk=g8iW6KRJ6iICGcrW3Lw0zIur1KqmGKwR5jyOWSiT_HE-1717765503-0.0.1.1-3796",cFPWv: 'g',cTTimeMs: '1000',cMTimeMs: '390000',cTplV: 5,cTplB: 'cf',cK: "visitor-time",fa: "\/minecraft\/mc-mods\/changed-plus?__cf_chl_f_tk=g8iW6KRJ6iICGcrW3Lw0zIur1KqmGKwR5jyOWSiT_HE-1717765503-0.0.1.1-3796",md: "iCD8f25h2Y4q8FAfvI9b7HwQF.FBgId0SQ9R6q99zNY-1717765503-1.1.1.1-i0iTmYgsT3dQoPh9mNZ13DKwfiGftvJ9ekGc7.Lrz1B44RL965qF5TLxJr1PBOPKvj8bVx.ookMlbL4jknzVTCRolVwIGkUWJovrskVGsB2gHKpe5Fc2G6ImJ3j0fLP1YjOOyhxsBDgZhF6Jp2fJLinGAYUsSXSmChfelQbVMUCBZAQYO.N1yqzQtQ2skijbsK0GlbaPBw3Q4hRKUrU.Gwik_1vPCPtF.mhTeNUOveo92q1E7kkdyPO7NIFf1dLWbI9hOwsx2j8JsWO5FhqAztgqUMe5KQP9FZRZ_5PadaJZmd02ohf6lOEngFy5cTlp9ngkGS74n..uRyu8Ir8PYw6avU6ilybCIOJ.ldzLZ7HlKoae_7udTRchaQNyQ_b00qe6IILn8t.ZTqOfmKGZhU9w_hl9fp79PJETx1LqzKcWPbIK6i1HEQsYTOm9oSi_iKjBz7bVETqIbNlT_jwcyyg6QmZmF4MuygvQoiE0mQFkHD3cxlveIWkjLTYBNT2B6nuv34DbRbwZn_UnjRnYs_xFAItOD2dbzhVeACQMlc71mgM8rPoK8iSN_f_n0jHpgbXzdsD1gvgVV0_4t_npeHSfwmitOO1q.TWCEiQYdGPKsQBNqUNeCydYH2pAz4dd1012RGktlHQdFKcsQzkhXkSBj1jYhEPJlOlsnrO5a_6uKsTOsnHPZCJY9R4QfEHB5RC_.VmKXUJkBnmM3IRivBK60eT60DMv_vuDMn8wjWvNM0eJvlp.OquKgtYMCLAq666L81Du5uPjZXEfLysBlNOrwcgorYi9tfkp3T6VdWEFz0y8tLR_ZaT8CsJ4SZURDJmtz9NiJPxzDxv87nFnssryVzCJPisTs8mdxrJmcGzxIthI5K.urKa6vaNmKnIXATaRNYnTcqPnyasTp0CvTeNSQ1.hcF5VffVh2BYv9UqJCpQULtoehCjG80ReoqkGkGN4BpjkDI0xnRsTmbhuj4KJ1FWjAApab76goSfCb386E3N4MZUIeX_fp.k6spvOXGiLwiuRiuJqu8CziRlD33JxI3UofmvmskDhtCqbCwPdtfQIYhNcMoNMGR7pbbLhdABaVegOLsdPnntB6F9EB_dpImdN3gsl55gF4xg6JHZ4RP7ujnZAkXXOIpvX4I0UWGnNFjGO7uyJiZKs8W_pDn2cZnhS7Jhgo9oO3IOzkUT4Y.pwNx8QQQjA0JFK4jQgpVHsJLf0E3Z1JbOsgGtN5QvGgnU.hicYf8z4O3P5O8I",mdrd: "2C.QdBRkHOr45DFXl6K5471NUbGXXs.o9w3C1EenOkA-1717765503-1.1.1.1-kwFuUvMY2gjbAn2N9u32Jg2WJahSqg2PSY3mkWuPe_utNLZGY2mvewnhcTmwr7lJWClbha_oiUtEtY_suBuAu5f886Dsfaqe5OVcJBQwbDdcw7oZ7BhEsWF1N_MnKjVUocioMcUVpPCoYs2vl7Ung.TsY9HaYs9kJGmxBEtviDAPtaaNRYvJgIlblaPsCWiRfyOYHQ9xkJkx2Dl9K0W74jkmfR7e0jRAaxP7i4qAtiE1v8Zj5VVEwcafF9iGiEggNfCS93Hx.cehiVjLT11tHJhDekTwI4qHNyO3FmsnlkoAG93CA3u97QDjT4Fsh6bE.aR7j256GEVmPkoXa4rylxNuFr6P9Qweb2XlKIzrNqxGedoKhjP7rvM47vCigNzyacp0Roww9B9WduyXOX4G3NTXGipHQMUx8ZxS1SZuZ763BrZNCtSrFCnRwroZDU1XCquutKTgC_Cw2KNynhHkzpRGcn2pKvUr9LN6QeekWvbgAqmW0vgqQaKohahTBMdzD6o2rPGaUaVpHZ7C_Md2KRgOhtDiSIOnisqQbk9Dq5nmIM4RD2IFJWC92KSQYsofxt35kbFOGWHfFkaYnDz1xqq7nZIQtHnK70AyaYXR0RFIDvUp4v8pzjwkPztddWIJrkhwZeeRtMTjAA7xI6uh2xPzsjIQETrjQOkT6gFwdoIcQb48spxlHtrA3RSdse1lq4Nnqb7Yu15daf7GaBQ0RqjcyWe4VfTvqyuLNe82tae2F7XcZWywEbm8CZqe8xhBEn8vog4AtimVdbioEP43N62RQZ2mthhSDYZBYLdfz1BBjI_5cV61rOkoGRYoaVqMbPt1H5moquAq.5cgmt01KGc0FgHhfjrBXDkUotKXeFK9JzcFz1NZXuHOd3NVxSB0mb5fC6nXEDqCE2C2G06b2aM9P_hziyuKktpB_sYDxmHlPYeVv0BvsfG0cEZ747qrXBcp_eZAL0oFLX.ixicO_P7.xdOWsa.5vqdQgmVtcfQMsMr6Ddkh6_Iczd3VoFuhjgoZYBa9KkYCOZVSoKgA5sWIti2eW5Epk_scKgfclE4zFnxxevSlF9lp8jo9UUlBLNnpfDMv7FYH9tyI212y61PB3pqs3V2aRXp6A0Tc_t7n33I2JA.FDc6TLvaZlGj.OOqKzCpYvRPvO.59wofQBAcJoT.AdkJkxauoMcH6LTS79AqvkCdhXncbT7xbnZr_8vOSYY6YlFopUTtnG4Er2vEsg7_UcirRc9f3ujTA7oCyX3Mo3mgSv_AF1PqbOHLD39FKgMbjK8co_l2lpyVuNF7R60o0UnCeguYu291z9eZlc3oBDNBr.fOc9fj0TNdZsZTEKfKZg87kL7yetzvT0nbjqxUC50Gl1xy_cxJjQ5yMb2Tpf1.RFwqwK66HBuIsE9NiYpq0U5sU7TiabTZT03BOs4m4vxuqfU1cVaHtQYt.AYnDaBCH9aFWhl7Hcy5Dk8Qho7A96U5QbH8aobBlfhFnUHlEa72FI7c51KQ.z0C150jYhAV3GR9t6kIz5OMpN91HxD9r3zH3bXlwPzhf14UCCIVnKum4DY0_wiMym5XoI4ch6SLD8z3R43DdhFr4r2wz0sDZtgnPnmFfDMCXj3s6v3DHV724fzzGHhq82gXQPvplVYJnFYWzDft_PN7EwO_opvNgIM1_D0QmdyUh73O6gw7Ox8kt2WPqWx1x3KbbKoKfLyFRLc_7rhSzROqKpoY1zYlsDoI1dCG9mi7e3e.hzVFgqdWrRph1HDNh12rZeVeTepP6JvXk0Cz1TtMPL4JXJVv81mIFKMhag8Tr804NEdH8NZk_a1RTi1Nlt_ma06J5kI.mALg_PLRt7BGnlTAm9QlDbtr9ayvHt2vw4xURxgxYj05QNiB6EX3TMnuDs.jkstgWI0xBdYABUv_bwuB_ib5Guso7Ak2i9MUFgG2.nF14J.9PKhhXrXIQgrr4HNfDtVK4SSYdibjSMy9HR_pNfYLs8BPxxO.FOHi3QBahUteKNL4tHWXa9OrV._xvWE6g3ocRNqHkpK010XPPQIpbytkb56oD_vWQ1iWkwti0dERh3kzOPIrr9Q7mDOGv3q4sY2BmJh4CaygT6bk9hlqe3i6i1HwhUtLmNCbUYNAyQfGO5lK.9E7RVaspLaBPWu89d_KLQQar7a7shZTVPAiW.Y_WrVNr4zTmtnYXt2AX8XPCc8BrzWhWNxTh6goBlOPFoMq6bur0UI_5lzxScAvmL.PLzuMGFBrSrN3kGi4y76PrH.jMcNuktq.OqBDagpot.gRw4_YNf8_QCVq0S.7gF3nKuLq4S0uWmmnfcCQU.CA0plxZTIXQ.vfkNhhWhOqYa6bm539rARbYN5ZJizUR7jK3nUZZKhQX69mJD9yzz0JvFTzq0VhA2Pppebg",cRq: {ru: 'aHR0cHM6Ly9sZWdhY3kuY3Vyc2Vmb3JnZS5jb20vbWluZWNyYWZ0L21jLW1vZHMvY2hhbmdlZC1wbHVz',ra: 'SmF2YS1odHRwLWNsaWVudC8xNy4wLjExIE1pbmVjcmFmdEZvcmdlLzEuMTguMi00MC4yLjIxIGNoYW5nZWRwbHVzLzAuMC4zYQ==',rm: 'R0VU',d: '3cZQrq37zllfvlxQZJxO1b+Tk8yriPHB0T6g9zOb28/2PsBG849cMXn1VHQMhpo6QJx0DkcTbOv2L90OWHBZfq5SVA6M0szKCkin4fP+fIOzRfqATtYLumsFOSbXj19JzYv3R5MGmVo9jWj9jqQEOts2PTj5+l+FGjqRqU8aNHgYPwK+6UNqDFiokmOUy/89MZihRW3YdE3oSYReKjkhbW6BoUe3NIwxzC0x9yQaC0ZygU6y+dsYKreyEfEhwEPAYggwxidIMwKtHCSBngnBCb+OjGdUoBcP+/zpkNWYckW1Hqbtn9eeJk+Av9KWSrkCld9MYF1AudSp9CrOjkiRuxGngAPUgJj1aCBXtaOTkX5jPowMGpOSYQuslR18x2ERIrVESO3p2UvDqM4Q2cnfZ19tAKK+RKIEGe/Kcr2NOrEuKvme/wrFSekqz8XTksQT5BcUkd4OvFkmo4Oe0QrXji6EBzG0K/8Fv0xxxn0un0ziswIgKhbMb/nuplFLAP/kU7FHKo8gdqrGwZdnDx3LVOnzP9MqsImawy0x2uA9RAoHRYjJ6qaFHAxFvVJnYlCC',t: 'MTcxNzc2NTUwMy45NTUwMDA=',cT: Math.floor(Date.now() / 1000),m: 'VE0aiXSphHSzo4n9d+Hc0LX4UzYbqH4hwyMYHaHYqzk=',i1: 'NPZ4KZGUulAeYZSR+YSpYg==',i2: 'Id7vBeTvjxSvkPSTdr5A4w==',zh: '7grqbTqE9SMwbH9gdYYhUK1dgEdI4IfENJeXlSsoRmo=',uh: 'Wzx7Q3O52vpWVKP9vaqUpYLfX1G9Y/ZULzJCM7UskHo=',hh: 'gjc0cIxpnZmpSlKbtI3zzK4tTdzbjWNldhPw8889mog=',}};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=8900d9ffbaa529e3';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\/minecraft\/mc-mods\/changed-plus?__cf_chl_rt_tk=g8iW6KRJ6iICGcrW3Lw0zIur1KqmGKwR5jyOWSiT_HE-1717765503-0.0.1.1-3796" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>
+[076月2024 22:05:04.461] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2344!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2344!/:?]
+	... 6 more
+[076月2024 22:05:04.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changed] Starting version check at https://raw.githubusercontent.com/LtxProgrammer/Changed-Minecraft-Mod/master/update.json
+[076月2024 22:05:04.885] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [changed] Received version check data:
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/changed-minecraft-mod",
+  "promos": {
+    "1.18.2-latest": "0.14",
+    "1.18.2-recommended": "0.13.1"
+  }
+}
+[076月2024 22:05:04.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changed] Found status: UP_TO_DATE Current: 0.13.1 Target: null
+[076月2024 22:05:08.316] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 3 jobs
+[076月2024 22:05:08.899] [Render thread/INFO] [net.ltxprogrammer.changed.Changed/]: Updated 27 patreon special forms
+[076月2024 22:05:09.026] [Worker-Main-10/DEBUG] [mixin/]: Mixing features.texture_tracking.MixinSpriteAnimation from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlasSprite$AnimatedTexture
+[076月2024 22:05:09.266] [Thread-6/INFO] [net.ltxprogrammer.changed.Changed/]: Update checker started
+[076月2024 22:05:09.278] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 957.0 ms
+[076月2024 22:05:09.306] [Worker-Main-10/DEBUG] [mixin/]: Mixing core.MixinFrustum from embeddium.mixins.json into net.minecraft.client.renderer.culling.Frustum
+[076月2024 22:05:09.658] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 4 jobs
+[076月2024 22:05:09.878] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 219.4 ms
+[076月2024 22:05:20.358] [Worker-Main-10/DEBUG] [mixin/]: Mixing features.texture_updates.MixinSpriteInterpolated from embeddium.mixins.json into net.minecraft.client.renderer.texture.TextureAtlasSprite$InterpolationData
+[076月2024 22:05:31.240] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6370
+[076月2024 22:05:46.877] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[076月2024 22:05:46.883] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[076月2024 22:05:47.228] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x2 minecraft:textures/atlas/blocks.png-atlas
+[076月2024 22:05:47.447] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[076月2024 22:05:47.450] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[076月2024 22:05:47.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[076月2024 22:05:47.469] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[076月2024 22:05:47.473] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[076月2024 22:05:47.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[076月2024 22:05:47.487] [Render thread/DEBUG] [mixin/]: Mixing render.AtlasSetMixin from changed.mixins.json into net.minecraft.client.renderer.texture.AtlasSet
+[076月2024 22:05:47.523] [Render thread/DEBUG] [mixin/]: Mixing core.pipeline.MixinBakedQuad from embeddium.mixins.json into net.minecraft.client.renderer.block.model.BakedQuad
+[076月2024 22:05:47.558] [Render thread/DEBUG] [mixin/]: Mixing features.model.MixinMultipartBakedModel from embeddium.mixins.json into net.minecraft.client.resources.model.MultiPartBakedModel
+[076月2024 22:05:47.559] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getQuads$0(I)[Lnet/minecraft/client/resources/model/BakedModel; to mdc9d8ee$lambda$getQuads$0$0 in embeddium.mixins.json:features.model.MixinMultipartBakedModel
+[076月2024 22:05:47.652] [Render thread/DEBUG] [mixin/]: Mixing features.model.MixinWeightedBakedModel from embeddium.mixins.json into net.minecraft.client.resources.model.WeightedBakedModel
+[076月2024 22:05:48.587] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Gathering blocks to cover
+[076月2024 22:05:48.590] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Starting latex cover generation for 845 blocks
+[076月2024 22:05:48.828] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Hit 500/845 generated blocks (784 sprites)
+[076月2024 22:05:49.267] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Finished model generation of 39350 latex models in 674.9 ms
+[076月2024 22:05:50.042] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 1: 1
+[076月2024 22:05:50.042] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 1: 1
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 3: 2
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 3: 2
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 5: 3
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 5: 3
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 7: 1
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 7: 1
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 8: 2
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 8: 2
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 9: 1
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 9: 1
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 10: 3
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 10: 3
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 11: 1
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 11: 1
+[076月2024 22:05:50.043] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 13: 2
+[076月2024 22:05:50.043] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 13: 2
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 14: 1
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 15: 2
+[076月2024 22:05:50.044] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 14: 1
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 16: 3
+[076月2024 22:05:50.044] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 15: 2
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 17: 2
+[076月2024 22:05:50.044] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 16: 3
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 19: 3
+[076月2024 22:05:50.044] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 17: 2
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 20: 1
+[076月2024 22:05:50.044] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 19: 3
+[076月2024 22:05:50.044] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 21: 3
+[076月2024 22:05:50.045] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 20: 1
+[076月2024 22:05:50.046] [Worker-Main-14/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 21: 3
+[076月2024 22:05:50.145] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 changed:textures/atlas/latex_blocks.png-atlas
+[076月2024 22:05:50.413] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Uploaded generated textures in 1.146 s
+[076月2024 22:05:50.414] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: The chef has started baking the models, with 0 early bake, 0 reference bake, 39350 normal bake
+[076月2024 22:05:50.501] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Removed already baked models from ModelBakery
+[076月2024 22:05:51.939] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Finished baking of 39350 latex models in 3.347 s
+[076月2024 22:05:52.221] [Render thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/client/model/HumanoidModel$Anonymous$81e2ce84be134274b9c7fe1d03e33c21 (originally net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin$1)
+[076月2024 22:05:52.243] [Render thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/client/model/HumanoidModel$Anonymous$70150ead303c49fb97773ae5148d7e5d (originally net/ltxprogrammer/changed/mixin/render/HumanoidModelMixin$2)
+[076月2024 22:05:52.251] [Render thread/DEBUG] [mixin/]: Mixing render.PartDefinitionMixin from changed.mixins.json into net.minecraft.client.model.geom.builders.PartDefinition
+[076月2024 22:05:52.252] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$withTriangles$0(Lnet/ltxprogrammer/changed/client/ModelPartExtender;IILnet/ltxprogrammer/changed/client/Triangle$Definition;)V to mdc9d8ee$lambda$withTriangles$0$0 in changed.mixins.json:render.PartDefinitionMixin
+[076月2024 22:05:52.276] [Render thread/DEBUG] [mixin/]: Mixing render.CubeListBuilderMixin from changed.mixins.json into net.minecraft.client.model.geom.builders.CubeListBuilder
+[076月2024 22:05:52.285] [Render thread/DEBUG] [mixin/]: Mixing render.CubeDefinitionMixin from changed.mixins.json into net.minecraft.client.model.geom.builders.CubeDefinition
+[076月2024 22:05:52.467] [Render thread/DEBUG] [mixin/]: Mixing render.CubeMixin from changed.mixins.json into net.minecraft.client.model.geom.ModelPart$Cube
+[076月2024 22:05:52.477] [Render thread/DEBUG] [mixin/]: Mixing features.entity.fast_render.MixinCuboid from embeddium.mixins.json into net.minecraft.client.model.geom.ModelPart$Cube
+[076月2024 22:05:53.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[076月2024 22:05:54.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[076月2024 22:05:54.015] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[076月2024 22:05:54.023] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[076月2024 22:05:54.026] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 32x16x0 changed:textures/atlas/latex_particles.png-atlas
+[076月2024 22:05:54.418] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[076月2024 22:06:54.203] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
