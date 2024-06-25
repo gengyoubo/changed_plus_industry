@@ -1,0 +1,467 @@
+{
+  "mod_elements": [
+    {
+      "name": "Latexgenerator",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/industry/models/block/latexgenerator.json",
+          "src/main/resources/assets/industry/blockstates/latexgenerator.json",
+          "src/main/java/net/mcreator/changedplusindustry/block/entity/LatexgeneratorBlockEntity.java",
+          "src/main/java/net/mcreator/changedplusindustry/block/LatexgeneratorBlock.java",
+          "src/main/resources/assets/industry/models/item/latexgenerator.json"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Industry",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industry",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Latex_processor_work",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latex_processor_work",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/procedures/Latex_processor_workProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Latexprocessor",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexprocessor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/industry/blockstates/latexprocessor.json",
+          "src/main/resources/assets/industry/models/block/latexprocessor.json",
+          "src/main/java/net/mcreator/changedplusindustry/block/entity/LatexprocessorBlockEntity.java",
+          "src/main/resources/assets/industry/models/item/latexprocessor.json",
+          "src/main/java/net/mcreator/changedplusindustry/block/LatexprocessorBlock.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "Check_enegy",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_enegy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/procedures/Check_enegyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Energymeter",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energymeter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/industry/models/item/energymeter.json",
+          "src/main/java/net/mcreator/changedplusindustry/item/EnergymeterItem.java"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "LatexgeneratorGUI",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexgenerator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/network/LatexgeneratorGUISlotMessage.java",
+          "src/main/java/net/mcreator/changedplusindustry/world/inventory/LatexgeneratorGUIMenu.java",
+          "src/main/java/net/mcreator/changedplusindustry/client/gui/LatexgeneratorGUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Latex_generator_work",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latex_generator_work",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/procedures/Latex_generator_workProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "LatexgeneratoropenGUI",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexgeneratoropen_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/procedures/LatexgeneratoropenGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LPimport",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "l_pimport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LatexprocessorGUI",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexprocessor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/network/LatexprocessorGUISlotMessage.java",
+          "src/main/java/net/mcreator/changedplusindustry/world/inventory/LatexprocessorGUIMenu.java",
+          "src/main/java/net/mcreator/changedplusindustry/client/gui/LatexprocessorGUIScreen.java"
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LatexprocessoropenGUi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "latexprocessoropen_g_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/procedures/LatexprocessoropenGUiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/block"
+    },
+    {
+      "name": "LatexgeneratorR",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "latexgenerator_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/industry/recipes/latexgenerator_r.json"
+        ]
+      },
+      "path": "~/reciple"
+    },
+    {
+      "name": "LatexprocessorR",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "latexprocessor_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/LatexprocessorR.java"
+        ]
+      }
+    },
+    {
+      "name": "Latexprocessorreciple",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "latexprocessorreciple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/industry/recipes/latexprocessorreciple.json"
+        ]
+      },
+      "path": "~/reciple"
+    },
+    {
+      "name": "Blocklatex",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocklatex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/changedplusindustry/item/BlocklatexItem.java",
+          "src/main/resources/assets/industry/models/item/blocklatex.json"
+        ]
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Burn",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "burn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/industry/recipes/burn.json"
+        ]
+      },
+      "path": "~/reciple"
+    },
+    {
+      "name": "Canborn",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canborn",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/reciple"
+    },
+    {
+      "name": "Check",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "check",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/industry/recipes/check.json"
+        ]
+      },
+      "path": "~/reciple"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.industry.latexgenerator": "Latex generator",
+      "itemGroup.tabindustry": "Industry",
+      "block.industry.latexprocessor": "Latex processor",
+      "item.industry.blocklatex": "Latex charcoal",
+      "item.industry.energymeter": "Energy meter"
+    },
+    "zh_cn": {
+      "block.industry.latexgenerator": "胶液发电机",
+      "itemGroup.tabindustry": "工业",
+      "block.industry.latexprocessor": "胶液处理器",
+      "item.industry.blocklatex": "胶碳",
+      "item.industry.energymeter": "LP机械测量器"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "block",
+        "children": []
+      },
+      {
+        "name": "other",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "reciple",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "industry",
+    "modName": "changed plus:Industry",
+    "version": "0.0.2",
+    "author": "耿悠博, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "CC-BY-NC-SA",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "changed"
+    ],
+    "dependencies": [
+      "create"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.changedplusindustry",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
