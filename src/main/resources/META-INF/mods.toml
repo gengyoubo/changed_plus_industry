@@ -1,33 +1,34 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="All Rights Reserved"
+license="CC-BY-NC-SA"
 
 [[mods]]
-modId="changed_plus_industry"
-version="0.0.1"
+modId="industry"
+version="0.0.2"
 displayName="changed plus:Industry"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="耿悠博, MCreator"
 
-[[dependencies.changed_plus_industry]]
+[[dependencies.industry]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
-[[dependencies.changed_plus_industry]]
-modId="changed"
-mandatory=false
-versionRange="(,0.13.1]" # Replace with the version you plan to mod
-ordering="NONE"
-side="BOTH"
-[[dependencies.changed_plus_industry]]
-modId="changedplus"
-mandatory=false
-versionRange="[0.0.3,)" # Replace with the version you plan to mod
-ordering="NONE"
-side="BOTH"
 
 
+[[dependencies.industry]]
+    modId="changed"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.industry]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

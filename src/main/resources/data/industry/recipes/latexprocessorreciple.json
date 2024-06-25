@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "ZYZ",
+    "XZX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:furnace"
+    },
+    "Z":{
+	  "item":"changedplus:latex"
+    }
+    },
+  "result": {
+    "item": "industry:latexprocessor",
+    "count": 1
+  }
+}

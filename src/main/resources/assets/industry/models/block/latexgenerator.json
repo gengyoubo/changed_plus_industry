@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "industry:blocks/latex_generator",
+    "up": "industry:blocks/latex_generator",
+    "north": "industry:blocks/latex_generator",
+    "east": "industry:blocks/latex_generator",
+    "south": "industry:blocks/latex_generator",
+    "west": "industry:blocks/latex_generator",
+    "particle": "industry:blocks/latex_generator"
+  }
+}

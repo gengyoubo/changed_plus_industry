@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "industry:blocks/as_ore_block",
+    "up": "industry:blocks/as_ore_block",
+    "north": "industry:blocks/as_ore_block",
+    "east": "industry:blocks/as_ore_block",
+    "south": "industry:blocks/as_ore_block",
+    "west": "industry:blocks/as_ore_block",
+    "particle": "industry:blocks/as_ore_block"
+  }
+}

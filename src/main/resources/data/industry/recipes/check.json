@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " Y ",
+    " Z "
+  ],
+  "key": {
+    "X": {
+      "item":"minecraft:redstone"
+    },
+    "Y":{
+      "item":"changedplus:latex"
+    },
+    "Z":{
+      "item":"minecraft:iron_ingot"
+    }
+    
+  },
+  "result": {
+    "item": "industry:energymeter",
+    "count": 1
+  }
+}
